@@ -190,86 +190,76 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
-            <div class="tag-title center-align">文章分类</div>
+            <div class="tag-title center-align">文章标签</div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/categories/hexo操作/" title="hexo操作: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #F9EBEA;">hexo操作
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/马克飞象简介/" title="马克飞象简介: 1">
+                <a href="/tags/hexo/" title="hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">马克飞象简介
+                            data-tagname="hexo" style="background-color: #F9EBEA;">hexo
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
+                
+                <a href="/tags/马克飞象-MarkDown/" title="马克飞象 MarkDown: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="马克飞象 MarkDown" style="background-color: #F5EEF8;">马克飞象 MarkDown
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
     </div>
 </div>
 
-    
+    <div class="container">
+        
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/10/04/hello-world/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary">Welcome to Hexo! This is your very first post. Check documentation for</div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-04
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/hexo操作/" class="post-category" target="_blank">
-                                    hexo操作
-                                </a>
+        <article>
+            <div class="row tags-posts">
+                
+                
+                <div class="article tag-post col s12 m6 l4" data-tags="马克飞象 MarkDown" data-aos="fade-up">
+                    <div class="card">
+                        <a href="/2018/10/05/huan-ying-shi-yong-ma-ke-fei-xiang/">
+                            <div class="card-image tag-image">
                                 
                                 
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/hexo/" target="_blank">
-                            <span class="chip bg-color">hexo</span>
+                                <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="马克飞象">
+                                
+                                <span class="card-title">马克飞象</span>
+                            </div>
                         </a>
-                        
+                        <div class="card-content article-content">
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-05
+                                </span>
+                                <span class="publish-author">
+                                    
+                                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                    
+                                    <a href="/categories/马克飞象简介/" class="post-category" target="_blank">
+                                    马克飞象简介
+                                    </a>
+                                    
+                                    
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
+                
             </div>
-            
-        </div>
-    </article>
+        </article>
+    </div>
 </main>
 
 
